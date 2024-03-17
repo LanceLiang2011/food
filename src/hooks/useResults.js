@@ -11,7 +11,7 @@ export default function useResults(cleanUp) {
     try {
       const response = await yelp.get("/search", {
         params: {
-          location: "Toronto",
+          location: "New York",
           term,
           limit: "50",
         },
